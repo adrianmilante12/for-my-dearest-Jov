@@ -103,8 +103,8 @@ const enterBtn=document.getElementById('enterBtn');
 function getNextFeb14(){
   const now=new Date();
   let year=now.getFullYear();
-  let feb14=new Date(year,0,14,0,0,0);
-  if(now>feb14) year++; feb14=new Date(year,0,14,0,0,0);
+  let feb14=new Date(2026,0,14,0,0,0);
+  if(now>feb14) year++; feb14=new Date(2026,0,14,0,0,0);
   return feb14;
 }
 function updateTimer(){
